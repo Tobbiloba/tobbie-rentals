@@ -12,7 +12,7 @@ function App() {
   return (
     // <div className=''>
 
-    <div className='w-[99.5vw] overflow-x-hidden'>
+    <div className='w-[100vw] overflow-x-hidden'>
       <MenuBar />
       <HomePage />
       <ReasonsWhy />

@@ -129,10 +129,10 @@ const Cars = ({ brand, type }) => {
 
 
     return (
-        <div className="flex flex-row gap-4 mt-8 overflow-x-scroll w-[90vw] border border-black">
+        <div className="flex flex-row gap-4 mt-8 overflow-x-scroll w-[90vw] border border-black min-h-fit">
             {filtered.map((item) => {
                 return (
-                    <div key={item.id} className="lg:w-[18vw] md:w-[20vw] w-[50vw] border border-red-500  flex flex-col bg-white rounded-xl h-[40vh] pl-3 pt-4">
+                    <div key={item.id} className="lg:w-[18vw] md:w-[20vw] w-[50vw] border border-red-500  flex flex-col bg-white rounded-xl min-h-fit pl-3 pt-4">
                         <p className="font-bold">{item.name}</p>
                         <img src={`${item.img}`} />
                         <p>{item.price}/Day</p>
