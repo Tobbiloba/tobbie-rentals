@@ -3,7 +3,7 @@ import bg2 from '../img/bg2.png'
 const HomePage = () => {
     return (
         <div >
-            <div className="w-[100vw] min-h-fit overflow-x-hidden ">
+            <div className="w-[100vw] m-h-fit overflow-x-hidden ">
                 <div className="w-[100vw] min-h-fit bg-black lg:pl-12 rounded-br-full flex lg:flex-row md:flex-row flex-col justify-between overflow-hidden"
                 // style={{ borderRadius: '0% 0px 150% 200%' }}
                 >
